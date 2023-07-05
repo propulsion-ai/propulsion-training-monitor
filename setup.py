@@ -18,12 +18,12 @@ setup(
     author_email='opensource@propulsionhq.com',
     license='Apache 2.0',
     packages=find_packages(),
-        entry_points={
-            'console_scripts': [
-                'propulsion_training_monitor = propulsion_training_monitor.__main__:main'
-            ]
+    entry_points={
+        'console_scripts': [
+            'propulsion_training_monitor = propulsion_training_monitor.__main__:main'
+        ]
     },
     zip_safe=False,
     python_requires='>=3.6',
-    install_requires=requirements_file
+    install_requires=requirements
 )
